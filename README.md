@@ -1,4 +1,4 @@
-# Skill Experiment 6 – Library Management Microservice (CRUD)
+# Skill Experiment 6 – Library Management Microservice 
 
 ## Architecture
 - Eureka Server: http://localhost:8761
