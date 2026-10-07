@@ -1,0 +1,243 @@
+!SESSION 2026-10-07 21:57:23.849 -----------------------------------------------
+eclipse.buildId=4.38.0.202512052019
+java.version=25.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.springtools
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.springtools
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-07 21:57:26.068
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-07 21:57:44.378
+!MESSAGE Logback config file: C:\Users\HP\OneDrive\Documents\2024-2028\2026-2027\Odd Sem\SOA-SKILL\SKILL-6\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.ui 2 0 2026-10-07 21:57:44.845
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-07 21:57:44.845
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2026-10-07 21:57:45.417
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2026-10-07 21:57:45.417
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-10-07 21:57:49.980
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\HP'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.workbench 4 0 2026-10-07 21:57:50.622
+!MESSAGE Failed to obtain 'WinDefend' service state
+!STACK 0
+java.io.IOException: Process timed-out and it was attempted to forcefully terminate it
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runProcess(WindowsDefenderConfigurator.java:395)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runPowershell(WindowsDefenderConfigurator.java:369)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.isWindowsDefenderServiceRunning(WindowsDefenderConfigurator.java:302)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.runExclusionCheck(WindowsDefenderConfigurator.java:159)
+	at org.eclipse.ui.internal.WindowsDefenderConfigurator.lambda$0(WindowsDefenderConfigurator.java:106)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:10.582
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:10.582
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:10.582
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:10.584
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:10.964
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:10.964
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:10.964
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:10.965
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:12.476
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:12.477
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:12.478
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:12.480
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:12.829
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:12.832
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:12.834
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:12.835
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:14.872
+!MESSAGE 21:58:14.859 [Simple-Language-Server main thread] INFO  o.s.i.v.b.a.BootVersionValidationConfig - Started Boot Version reconciler
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:14.931
+!MESSAGE 21:58:14.930 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - update settings of spring indexer - done
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:14.995
+!MESSAGE 21:58:14.935 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - update settings of spring indexer - done
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:14.996
+!MESSAGE 21:58:14.935 [Simple-Language-Server main thread] INFO  o.s.i.v.b.j.l.v.SpringProcessConnectorRemote - updating settings for remote processses to track - done
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:15.046
+!MESSAGE 21:58:15.038 [pool-6-thread-1] INFO  o.s.i.v.b.j.u.SpringFactoriesIndexer - scan factories files for symbols for project: BookService - no. of files: 0
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:15.136
+!MESSAGE 21:58:15.084 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - scan java files for symbols for project: BookService - no. of files: 7
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:16.641
+!MESSAGE 21:58:15.564 [Project-Reconciler-1] INFO  o.s.i.v.boot.app.RestTemplateFactory - Proxy URL from env: null
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:16.810
+!MESSAGE 21:58:16.722 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - scan java files, AST parse, chunk 0 for files: 1
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:35.617
+!MESSAGE 21:58:18.737 [Project-Reconciler-1] INFO  o.s.i.v.boot.app.RestTemplateFactory - Env var https_proxy: null
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:35.617
+!MESSAGE 21:58:35.616 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.jface 2 0 2026-10-07 21:58:35.886
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2026-10-07 21:58:35.886
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:38.788
+!MESSAGE 21:58:38.784 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 4
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:38.948
+!MESSAGE 21:58:38.945 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:39.147
+!MESSAGE 21:58:39.143 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:39.455
+!MESSAGE 21:58:39.453 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 8
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:40.936
+!MESSAGE 21:58:40.935 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 9
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:40.939
+!MESSAGE 21:58:40.937 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:42.059
+!MESSAGE 21:58:42.058 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:42.468
+!MESSAGE 21:58:42.466 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:42.491
+!MESSAGE 21:58:42.485 [pool-3-thread-2] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [spring-boot-properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:42.727
+!MESSAGE 21:58:42.725 [pool-3-thread-2] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:42.728
+!MESSAGE 21:58:42.725 [pool-3-thread-2] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:43.033
+!MESSAGE 21:58:43.013 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:43.177
+!MESSAGE 21:58:43.175 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 14
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:43.188
+!MESSAGE 21:58:43.179 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 4ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:43.575
+!MESSAGE 21:58:43.352 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 15
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:43.706
+!MESSAGE 21:58:43.684 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:43.909
+!MESSAGE 21:58:43.906 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:44.215
+!MESSAGE 21:58:43.937 [pool-3-thread-2] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:44.215
+!MESSAGE 21:58:43.937 [pool-3-thread-2] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [spring-boot-properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:44.216
+!MESSAGE 21:58:44.210 [pool-3-thread-2] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:44.216
+!MESSAGE 21:58:44.210 [pool-3-thread-2] INFO  o.s.i.v.c.l.c.CompositeCompletionEngine - languageId = LanguageId [spring-boot-properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:44.594
+!MESSAGE 21:58:44.593 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:44.612
+!MESSAGE 21:58:44.611 [pool-3-thread-2] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - completion handling - retrieve lastest snapshot for: file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:44.613
+!MESSAGE 21:58:44.611 [pool-3-thread-2] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Starting completion handling for: file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:45.014
+!MESSAGE 21:58:44.865 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 21
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:45.016
+!MESSAGE 21:58:44.887 [pool-3-thread-2] INFO  o.s.i.v.c.l.c.VscodeCompletionEngineAdapter - Got 0 completions in 3ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:46.359
+!MESSAGE 21:58:45.034 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - completion request arrived: file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:46.361
+!MESSAGE 21:58:46.357 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 23
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:48.662
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:48.663
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:48.663
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-10-07 21:58:48.663
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:48.678
+!MESSAGE 21:58:48.678 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/target/classes/application.properties]
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-10-07 21:58:57.005
+!MESSAGE 21:58:57.004 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - Closed: file:///C:/Users/HP/OneDrive/Documents/2024-2028/2026-2027/Odd%20Sem/SOA-SKILL/SKILL-6/BookService/src/main/resources/application.properties
